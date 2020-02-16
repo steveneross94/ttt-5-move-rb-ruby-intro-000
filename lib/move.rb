@@ -7,6 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
+  binding.pry
   new_user_input = user_input.to_i
   new_user_input -= 1
   return new_user_input
